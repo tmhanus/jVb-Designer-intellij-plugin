@@ -1,0 +1,34 @@
+<idea-plugin version="1">
+    <id>jVb_Designer</id>
+    <name>jVb - Java Batch Designer</name>
+    <version>0.1</version>
+    <vendor email="tmhanus@gmail.com"></vendor>
+    <description> Graphical editor for Job structure configuration in Batching API</description>
+
+    <idea-version since-build="131"/>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Provider for Graphic File Editor-->
+        <fileEditorProvider implementation="designer.ui.editor.JSLFileGraphicEditorProvider"/>
+
+        <!-- JSL File Type provider-->
+        <fileTypeFactory implementation="designer.ui.editor.JSLFileTypeFactory"/>
+    </extensions>
+
+    <!--<application-components>-->
+    <!--</application-components>-->
+
+    <!--<project-components>-->
+    <!--</project-components>-->
+
+    <actions>
+        <!-- Action for creating new JobDefinitionFile from NewFile PopupMenu-->
+        <group id="FirstPlugin.NewActions">
+            <separator/>
+            <action id="New Job File" class="designer.actions.CreateJobAction"/>
+            <add-to-group anchor="after" group-id="NewGroup" relative-to-action="NewFromTemplate"/>
+        </group>
+
+    </actions>
+
+</idea-plugin>
