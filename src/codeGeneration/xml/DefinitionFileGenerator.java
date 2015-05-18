@@ -51,8 +51,7 @@ public class DefinitionFileGenerator {
     public Definition unmarshal() throws JAXBException {
         Definition definition = null;
         try {
-            StringReader reader = new StringReader(this.document.getText());
-            definition = (Definition) this.unmarshaller.unmarshal(reader);
+            definition = (Definition)this.unmarshaller.unmarshal(this.file);
         } catch (Exception e) {
         }
         return definition;
