@@ -14,12 +14,15 @@ Supported Elements:
 Screenshots
 --------------
 **Designer Canvas**
+
 ![Alt text](/images/all.png "Designer Canvas")
 
 **Palette & Properties Panel**
+
 ![Alt text](/images/panels.png "Palette & Properties Panel")
 
 **Editor example**
+
 ![Alt text](/images/exceptions.png "Editor example")
 
 
