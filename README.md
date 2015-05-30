@@ -13,10 +13,11 @@ Supported Elements:
   
 Screenshots
 --------------
-![Alt text](/images/all.png "Designer Canvas")
-Palette && Properties Panel             |  Editor example
-:-------------------------:|:-------------------------:
-![Alt text](/images/panels.png "Palette & Properties Panel")  |  ![Alt text](/images/exceptions.png "Editor example")
+![Alt text](/images/all.png "Designer Canvas" =250x)
+
+![Alt text](/images/panels.png "Palette & Properties Panel")
+
+![Alt text](/images/exceptions.png "Editor example")
 
 
 
