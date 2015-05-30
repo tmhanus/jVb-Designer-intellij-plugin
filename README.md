@@ -11,4 +11,10 @@ Supported Elements:
    * *End Transition Elements* (End, Fail, Stop)
    * *Start Element* to set first element
   
+Screenshots
+--------------
 ![Alt text](/images/all.png "Designer Canvas")
+
+![Alt text](/images/panels.png "Palette & Properties Panel")
+
+![Alt text](/images/exceptions.png "Editor example")
