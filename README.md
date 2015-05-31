@@ -25,5 +25,11 @@ Screenshots
 
 ![Alt text](/images/exceptions.png "Editor example")
 
+Hints:
+--------------
+  * to create a new Job definition file: New --> Job Definition File
+  * to submit changes and generate final Definition File (.xml): RMB (Right mouse button) --> Generate Job File
+  * edit .jsl file in both text and graphical editor (Do not edit .jsd file. It's just an inner configuration file, which stores positions and other additional info about elements. Otherwise be aware of possible consequences.)
+
 
 
